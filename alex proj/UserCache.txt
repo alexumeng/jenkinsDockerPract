@@ -1,8 +1,0 @@
-"{ 'username': 'cwqeui', 'interestList': [('jesse', 12), ('ivor', 6), ('group', 6), ('wither', 5), ('portal', 4)]}"
-"{ 'username': 'alex', 'interestList': [('jesse', 12), ('ivor', 6), ('group', 6), ('wither', 5)]}"
-"{ 'username': 'people', 'interestList': [('jesse', 12), ('ivor', 6), ('group', 6), ('wither', 5), ('portal', 4), ('dark', 4), ('wizarding', 3), ('war', 3), ('first', 2), ('1981', 2)]}"
-"{ 'username': 'Alex', 'interestList': [('dark', 4), ('wizarding', 3), ('war', 3), ('first', 2), ('1981', 2)]}"
-"{ 'username': 'po', 'interestList': [('dark', 4), ('wizarding', 3), ('war', 3), ('first', 2), ('1981', 2)]}"
-"{ 'username': 'MatchedUsernameExampleUser', 'interestList': [('games', 10), ('arena', 6), ('apex', 4), ('various', 4), ('syndicate', 4)]}"
-"{ 'username': '00', 'interestList': [('games', 10), ('arena', 6), ('apex', 4), ('various', 4), ('syndicate', 4)]}"
-"{ 'username': 'work', 'interestList': [('jesse', 12), ('ivor', 6), ('group', 6), ('wither', 5), ('portal', 4)]}"

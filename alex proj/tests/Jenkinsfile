@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Build Image') {
             steps{
-                sh 'docker build -t alexmeng99/jenkinsdockerpract:$BUILD_NUMBER ./tests/'
+                sh 'docker build -t alexmeng99/jenkinsdockerpract:$BUILD_NUMBER ./alex proj/tests/'
             }
         }
         stage('Docker Login') {

@@ -1,6 +1,6 @@
 FROM python:3.8
 
-WORKDIR /tests
+WORKDIR /testInterests
 
 COPY requirements.txt requirements.txt
 RUN python -m unittest testInterests.py

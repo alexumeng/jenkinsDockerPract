@@ -1,9 +1,9 @@
 FROM python:3.8
 
-WORKDIR /testInterests
+WORKDIR /tests
 
 COPY requirements.txt requirements.txt
-RUN pip3 install -r requirements.txt
+RUN python -m unittest testInterests.py
 
 COPY . .
 

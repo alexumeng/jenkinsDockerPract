@@ -8,11 +8,11 @@ RUN set -x \
     default-libmysqlclient-dev \
     clamav
 
-RUN mkdir /alexproj
+# RUN mkdir /alexproj
 
 WORKDIR /alexproj
 
-ADD . /alexproj
+# ADD . /alexproj
 #COPY ./tests/testInterests.py /tests/
 
 RUN pip install nltk

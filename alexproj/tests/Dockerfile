@@ -7,4 +7,4 @@ RUN python -m unittest
 
 COPY . .
 
-CMD ["python3", "./testInterests.py"]
+CMD ["python3", "/alexproj/Main.py", "./testInterests.py"]

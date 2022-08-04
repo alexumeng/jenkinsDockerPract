@@ -17,6 +17,8 @@ ADD . /alexproj
 
 #RUN pip install nltk
 
+RUN python -m unittest discover ./tests/
+
 COPY . .
 
 # CMD ["sh", "-c", "python3", "./tests/testInterests.py"]

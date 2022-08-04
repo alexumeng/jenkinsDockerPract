@@ -8,7 +8,7 @@ class TestInterests(unittest.TestCase):
 
     def test_InterestReturn1(self):
         
-        result = run("Userfile.txt")
+        result = run("Alex.txt")
         self.assertEqual(result, [('games', 10), ('arena', 6), ('apex', 4), ('various', 4), ('syndicate', 4)])
         print("Test 1 Succesful")
 

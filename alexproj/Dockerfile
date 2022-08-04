@@ -6,4 +6,4 @@ RUN pip install nltk
 
 COPY . .
 
-CMD ["stdbuf", "-oL", "python3", "./tests/testInterests.py"]
+CMD ["sh", "-c", "python3", "./tests/testInterests.py"]

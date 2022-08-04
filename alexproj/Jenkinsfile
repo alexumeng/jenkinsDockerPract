@@ -7,13 +7,13 @@ pipeline {
     stages{
         stage('Clone Repo'){
             steps {
-                checkout scm
+                checkout scm // clones the code from source control
                 sh 'ls *'
             }
         }
         stage('Build Image') {
             steps{
-                sh 'docker build -t alexmeng99/jenkinsdockerpract:$BUILD_NUMBER ./alexproj/'
+                sh 'docker build -t alexmeng99/jenkinsdockerpract:$BUILD_NUMBER ./alexproj/tests/' // this is where the dockerfile is
             }
         }
         stage('Docker Login') {

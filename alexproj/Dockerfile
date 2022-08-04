@@ -1,9 +1,11 @@
 FROM python:3.8
 
-WORKDIR /alexproj/
+COPY /alexproj/ ./tests
+WORKDIR /alexproj/tests
 
-COPY requirements.txt requirements.txt
 RUN pip install nltk
+RUN dotnet restore
+RUN dotnet test --logger trx
 
 COPY . .
 

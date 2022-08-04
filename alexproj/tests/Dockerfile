@@ -1,6 +1,6 @@
 FROM python:3.8
 
-WORKDIR /alexproj/tests/
+WORKDIR /alexproj/
 
 COPY requirements.txt requirements.txt
 RUN python -m unittest 

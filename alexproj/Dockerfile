@@ -5,4 +5,4 @@ RUN pip install nltk
 
 COPY . .
 
-CMD ["python3", "./testInterests.py"]
+CMD ["python3", "./tests/testInterests.py"]

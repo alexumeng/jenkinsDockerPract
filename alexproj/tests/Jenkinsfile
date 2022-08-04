@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Build Image') {
             steps{
-                sh 'docker build -t alexmeng99/jenkinsdockerpract:$BUILD_NUMBER ./alexproj/' // this is where the dockerfile is
+                sh 'docker build -t alexmeng99/jenkinsdockerpract:$BUILD_NUMBER ./alexproj/tests' // this is where the dockerfile is
             }
         }
         stage('Docker Login') {

@@ -30,7 +30,8 @@ pipeline {
         stage('Run Tests') {
             steps {
 		        //sh 'docker push raj80dockerid/jenkinstest' (this will use the tag latest)    
-                sh 'docker run -it --rm alexmeng99/jenkinsdockerpract:$BUILD_NUMBER'
+                sh 'docker run --rm alexmeng99/jenkinsdockerpract:$BUILD_NUMBER'
+                sh '-c "go test"'
             }
         }
         stage('Docker Push') {

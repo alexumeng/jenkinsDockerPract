@@ -10,7 +10,7 @@ RUN set -x \
 
 # RUN mkdir /alexproj
 
-WORKDIR /alexproj
+WORKDIR /tmp
 
 # ADD . /alexproj
 #COPY ./tests/testInterests.py /tests/

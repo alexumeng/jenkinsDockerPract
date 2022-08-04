@@ -19,4 +19,6 @@ ADD . /alexproj
 
 COPY . .
 
-CMD ["sh", "-c", "python3", "./tests/testInterests.py"]
+# CMD ["sh", "-c", "python3", "./tests/testInterests.py"]
+
+CMD ["python3", "./tests/hello.py"]

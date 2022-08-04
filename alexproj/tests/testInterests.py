@@ -19,3 +19,5 @@ class TestInterests(unittest.TestCase):
         print("Test 2 Succesful")
 
 
+if __name__ == '__main__':
+    unittest.main()

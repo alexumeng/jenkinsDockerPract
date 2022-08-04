@@ -17,10 +17,10 @@ ADD . /alexproj
 
 RUN pip install nltk
 
-RUN python -m unittest discover ./tests/
+# RUN python -m unittest discover ./tests/
 
 COPY . .
 
-# CMD ["sh", "-c", "python3", "./tests/testInterests.py"]
+CMD ["python3", "./tests/testInterests.py"]
 
-CMD ["python3", "./tests/hello.py"]
+# CMD ["python3", "./tests/hello.py"]

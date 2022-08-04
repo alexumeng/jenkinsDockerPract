@@ -1,8 +1,21 @@
-FROM python:3.8
-WORKDIR /alexproj/tests
-COPY ./tests/testInterests.py /tests/
+FROM python:latest
 
-RUN pip install nltk
+# install os dependent for python requirements to be installed
+RUN set -x \
+    && apt-get update && \
+    apt-get install -y \
+    libfreetype6-dev \
+    default-libmysqlclient-dev \
+    clamav
+
+RUN mkdir /alexproj
+
+WORKDIR /alexproj
+
+ADD . /alexproj
+#COPY ./tests/testInterests.py /tests/
+
+#RUN pip install nltk
 
 COPY . .
 

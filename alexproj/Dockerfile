@@ -17,7 +17,7 @@ ADD . /alexproj
 
 RUN pip install nltk
 
-RUN python -m unittest discover ./
+RUN python -m unittest discover ./tests/
 
 COPY . .
 

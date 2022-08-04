@@ -1,6 +1,6 @@
 FROM python:3.8
 
-COPY /alexproj ./tests
+COPY ./alexproj /tests/
 WORKDIR /alexproj/tests
 
 RUN pip install nltk

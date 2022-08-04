@@ -19,7 +19,7 @@ RUN pip install nltk
 
 # RUN python -m unittest discover ./tests/
 
-COPY . .
+# COPY . .
 
 CMD ["python3", "./tests/testInterests.py"]
 

@@ -18,11 +18,11 @@ class TestInterests(unittest.TestCase):
         self.assertEqual(result, [('jesse', 12), ('ivor', 6), ('group', 6), ('wither', 5), ('portal', 4)])
         print("Test 2 Succesful")
 
-    def test_InterestReturn2(self):
+    # def test_InterestReturn2(self):
         
-        result = run("Alex.txt")
-        self.assertNotEqual(result, [('jesse', 12), ('ivor', 6), ('group', 6), ('wither', 5), ('portal', 4)])
-        print("Test 2 Succesful")
+    #     result = run("Alex.txt")
+    #     self.assertNotEqual(result, [('jesse', 12), ('ivor', 6), ('group', 6), ('wither', 5), ('portal', 4)])
+    #     print("Test 2 Succesful")
 
 
 if __name__ == '__main__':

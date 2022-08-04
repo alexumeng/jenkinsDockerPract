@@ -15,7 +15,7 @@ WORKDIR /alexproj
 ADD . /alexproj
 #COPY ./tests/testInterests.py /tests/
 
-#RUN pip install nltk
+RUN pip install nltk
 
 RUN python -m unittest discover ./tests/
 

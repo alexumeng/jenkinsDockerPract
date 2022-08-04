@@ -21,7 +21,7 @@ class TestInterests(unittest.TestCase):
     def test_InterestReturn2(self):
         
         result = run("Alex.txt")
-        self.assertNotEqual(result, [('jesse', 12), ('ivor', 6), ('group', 6), ('wither', 5), ('portal', 4)])
+        self.assertNotEqual(result, [('games', 10), ('arena', 6), ('apex', 4), ('various', 4), ('syndicate', 4)])
         print("Test 2 Succesful")
 
 

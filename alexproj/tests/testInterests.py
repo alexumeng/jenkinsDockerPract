@@ -15,7 +15,7 @@ class TestInterests(unittest.TestCase):
     def test_InterestReturn2(self):
         
         result = run("Alex.txt")
-        self.assertEqual(result, [('jesse', 12), ('ivor', 6), ('group', 6), ('wither', 5), ('portal', 4)])
+        self.assertEqual(result, [('jesse', 12), ('ivor', 6), ('group', 6), ('wither', 5)])
         print("Test 2 Succesful")
 
     def test_InterestReturn3(self):

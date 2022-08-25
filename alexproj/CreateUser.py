@@ -6,7 +6,7 @@ import Main
 reigster_user = "UserCache.txt"
 
 def main():
-    name = input("What can we call you?")                                                                                                                                                                                                                                                                                                                               
+    name = input("What can we call you? ")                                                                                                                                                                                                                                                                                                                               
     file = open (reigster_user, 'a+')
 
 
